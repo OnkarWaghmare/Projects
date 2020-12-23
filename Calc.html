@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="container col-sm-3">
+            <table class="table table-border btn-success col-sm-3" >
+                <tbody>
+                    <tr>
+                    <th scope="row"><input type="text" id="displayScreen"/></th>
+                    <td><input type="button" class="btn btn-danger" value="C" onclick="clr()"/></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-border btn-secondary col-sm-3" >
+                <tbody>
+                    <tr>
+                    <th scope="row"><input type="button" class="btn btn-primary" value="7" onclick="Outdisplay('7')"/></th>
+                    <td><input type="button" class="btn btn-primary" value="8" onclick="Outdisplay('8')"/></td>
+                    <td><input type="button" class="btn btn-primary" value="9" onclick="Outdisplay('9')"/></td>
+                    <td><input type="button" class="btn btn-warning" value="/" onclick="Outdisplay('/')"/></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                    <th scope="row"><input type="button" class="btn btn-primary" value="4" onclick="Outdisplay('4')"/></th>
+                    <td><input type="button" class="btn btn-primary" value="5" onclick="Outdisplay('5')"/></td>
+                    <td><input type="button" class="btn btn-primary" value="6" onclick="Outdisplay('6')"/></td>
+                    <td><input type="button" class="btn btn-warning" value="*" onclick="Outdisplay('*')"/></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                    <th scope="row"><input type="button" class="btn btn-primary" value="1" onclick="Outdisplay('1')"/></th>
+                    <td><input type="button" class="btn btn-primary" value="2" onclick="Outdisplay('2')"/></td>
+                    <td><input type="button" class="btn btn-primary" value="3" onclick="Outdisplay('3')"/></td>
+                    <td><input type="button" class="btn btn-warning" value="+" onclick="Outdisplay('+')"/></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                    <th scope="row"><input type="button" class="btn btn-primary" value="0" onclick="Outdisplay('0')"/></th>
+                    <td><input type="button" class="btn btn-primary" value="." onclick="Outdisplay('.')"/></td>
+                    <td><input type="button" class="btn btn-success" value="=" onclick="Evaluate()"/></td>
+                    <td><input type="button" class="btn btn-warning" value="-" onclick="Outdisplay('-')"/></td>
+                    </tr>
+                </tbody>
+</table>
+        </div>
+
+
+
+
+
+        <script src="Calc.js" ></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
